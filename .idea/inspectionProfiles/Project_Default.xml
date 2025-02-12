@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyRedeclarationInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="builtins.print.lower" />
+          <option value="main.*" />
+          <option value="colorgram" />
+          <option value="PyQt5.QtCore.timeout.connect" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
