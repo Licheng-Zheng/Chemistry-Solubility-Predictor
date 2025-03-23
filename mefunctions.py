@@ -114,11 +114,16 @@ def find_element(letters):
                      'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db', 'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc',
                      'Lv', 'Ts']
 
-    letters = list(map(str, letters.split()))
+    copied = letters
+    try:
+        letters = list(map(str, letters.split()))
 
-    letters = letters[1::]
+        letters = letters[1::]
 
-    letters = str(letters[0])
+        letters = str(letters[0])
+
+    except IndexError:
+        letters = copied
 
     # stores all the numbers, so we can iterate through this list
     search = "0123456789"

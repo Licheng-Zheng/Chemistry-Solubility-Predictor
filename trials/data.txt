@@ -68,7 +68,7 @@ compound:C₂H₅NO₂names:Nitroethanenewdata:['5.736E-01', 293]['6.404E-01', 2
 compound:C₂H₅NO₂names:Methyl carbamatenewdata:['9.125E+00', 284]['9.119E+00', 284]['9.200E+00', '15.50']['5.462E+00', '15.50']
 compound:C₂H₅NO₂names:Glycolamidenewdata:['5.509E+00', 298]['5.485E+00', 373]['5.353E+00', '99.99']['1.612E+00', '—']['4.499E+00', 'rt']
 compound:C₂H₅NSnames:Thiacetamidenewdata:['1.865E+00', 298]
-compound:C₂H₅N.₂H₂Onames:Ethyleneimine (dihydrate)newdata:['6.840E-02', 293]
+compound: ₂Onames:Ethyleneimine (dihydrate)newdata:['6.840E-02', 293]
 compound:C₂H₅N₃O₂names:Methylnitrosoureanewdata:['1.400E-01', 297]
 compound:C₂H₅N₃O₂names:Biuretnewdata:['1.164E-01', 273]['1.475E-01', 288]['3.104E+00', 379]
 compound:C₂H₅N₅O₃names:N-Methyl- Nʹ-nitro- N-nitrosoguanidinenewMNNGnewdata:

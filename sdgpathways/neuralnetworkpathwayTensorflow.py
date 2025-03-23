@@ -48,15 +48,22 @@ model = keras.Sequential([
     Dropout(dropout_value), 
     Dense(120, activation='relu'),
     BatchNormalization(), 
-    Dropout(dropout_value),
 
     Dense(120, activation='relu'),
     BatchNormalization(),
     Dropout(dropout_value),
 
-    Dense(120, activation='tanh'),
+    # Dense(120, activation='relu'),
+    # BatchNormalization(),
+    # Dropout(dropout_value),
+
+    Dense(120, activation='relu'),
     BatchNormalization(),
-    Dropout(0.06),
+    Dropout(dropout_value),
+
+    Dense(120, activation='relu'),
+    BatchNormalization(),
+    Dropout(dropout_value),
 
     Dense(120, activation='sigmoid'),
     BatchNormalization(),
@@ -69,6 +76,9 @@ model.compile(
     optimizer='adam',
     loss='mae'
 )
+
+
+print(model.summary())
 
 early_stopping = callbacks.EarlyStopping(
     min_delta=0.001,

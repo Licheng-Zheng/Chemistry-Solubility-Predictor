@@ -60,7 +60,7 @@ class NeuralNetwork(nn.Module):
     def forward(self, x):
         return self.layers(x)
 
-# Load data
+# Load data - by Coralyn 
 dataframe = pd.read_csv("information.csv", delimiter=",", header=None)
 dataset = dataframe.values
 
