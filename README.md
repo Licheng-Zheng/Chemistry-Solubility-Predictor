@@ -12,6 +12,10 @@ For this project, I used a big pdf containing a large amount of solubility data,
 
 Because this project was not done to compare different optimization algorithms, I did not have to create the algorithms from scratch to ensure none of the models had an unfair advantage, so I used frameworks to create the algorithms, specifically pytorch and tensorflow. 
 
+Here are the files that can be found in important files and purposes, and it gives a general overview of the code and their purposes. This flowchart is also in this folder if you want to look at it in higher definition (idk why you would want to but the option is there) 
+![image](https://github.com/user-attachments/assets/715898f9-0d6e-4c2d-b373-a8e88c6c8811)
+
+
 #### More Specific Information
 The data that I used for this project was just a big pdf of a bunch of chemical compounds and their formulas at different temperatures. 
 ![image](https://github.com/user-attachments/assets/84acd6a5-12e6-491f-970e-d3deade4a992)
