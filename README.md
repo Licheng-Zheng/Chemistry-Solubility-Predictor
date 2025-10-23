@@ -1,7 +1,7 @@
 ## Chemistry Solubility Predictor
 
 ### Purpose 
-This project was my CAS project, which is a project that takes over a month, is collaborative and greatly contributes to my personal growth. This project was inspired by my friend introducing me to computational chemistry programs, greatly increasing my interest for thsi field that I had previously known nothing about. I was introduced to softwares such as GAMESS, ORCA and MOPAC, and I wanted to one day create a similar program. 
+This project was my CAS project, which is a project that takes over a month, is collaborative and greatly contributes to my personal growth. This project was inspired by my friend introducing me to computational chemistry programs, greatly increasing my interest for thisfield that I had previously known nothing about. I was introduced to softwares such as GAMESS, ORCA and MOPAC, and I wanted to one day create a similar program. 
 
 These projects are capable of predictor a humongous range of chemical properties that I would not be able to do without far more time, knowledge and effort that I had available to me, so for this project, I will only be creating a model that attempts to predict the solubility of a chemical, given its chemical formula. 
 
